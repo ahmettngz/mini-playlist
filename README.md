@@ -19,6 +19,8 @@ Uygulamayı başlatmak için:
 ```bash
 python main.py
 ```
+### V0 -> V1 Değişiklik Özeti
+V0 sürümünde sadece `init` ve `add` komutları döngü kullanılmadan temel dosya işlemleriyle çalışıyordu. V1 sürümünde Python listeleri ve `for` döngüleri kullanılarak `show` ve `remove` komutları aktif hale getirildi. Veriler listelerde tutularak dosya güncelleme işlemleri dinamikleştirildi.
 
 ## Teknolojiler
 
@@ -26,6 +28,8 @@ python main.py
 - Tkinter (GUI)
 
 ## Katkıda Bulunma
+
+Bu proje https://github.com/seyyah 'ın derslerinden esinlenerek oluşturulmuştur.
 
 Bu proje kişisel gelişim amacıyla oluşturulmuştur. Katkıda bulunmak isterseniz pull request gönderebilirsiniz.
 
